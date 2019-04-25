@@ -1,0 +1,1528 @@
+[ 2019-04-23T18:20:17+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.769076s][吞吐率：1.30req/s] [内存消耗：1,583.78kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '60ccf1020693250410ad96a90d478c1c',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [401][C:\wamp64\www\fraternity\application\api\service\Token.php:25]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:21:22+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：1.031103s][吞吐率：0.97req/s] [内存消耗：1,583.63kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [401][C:\wamp64\www\fraternity\application\api\service\Token.php:25]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:21:23+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：2.410241s][吞吐率：0.41req/s] [内存消耗：3,136.90kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:14522',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0218Xmzg2YnpMI0i6Ivg2DHCzg28XmzC',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034003s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.035004s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.009000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:21:24+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：0.704070s][吞吐率：1.42req/s] [内存消耗：3,136.90kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:14522',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011G2B2n0R85Qk1x1j2n0E9M2n0G2B2B',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:21:25+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/decode/user
+[ log ] localhost/fraternity/public/index.php/api/v1/decode/user [运行时间：0.457045s][吞吐率：2.19req/s] [内存消耗：2,832.58kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Decode',
+    2 => 'decodeUser',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '544',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:14522',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => 'b39d364b4c0a598e7e6a1ba84fc91252',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'encryptedData' => '+wxnpNjcq6HcXyFNZUZsjQGkEgtjLbxgX9LIbdnsru8U4BrIhzJykyglNST21vFUFt67EC/u4PkFkWk5kWtrLBgYskyceTRYCwMW3+9td4bhgt/fviQdfGUHwwa/YUeDmlLCZPOhr0QDnDOaH6xkTq3YWSC4SIH87vJQtQOiYJRh8qHSbiVS12bLPOtl8RoBInD8w62584+G1/Ydw0BdenuW9hoW6EZXsgC3EN1yq6uUAvkMqsp3PxegvuGGP6hWaJuzDOhaXlHCGDNMkFIgJ7++d9aeza1m46nKJVpSeXYRL+sB4ssWW5hEFfm+Mp1SBxwQpsosV7A5FFswVNaHiJqyj9wFpa+veQRAG0sJOGtVjyKeScRhTrc7JyU84c1b3BR6gTVazNTI/njfBso4JuVUl+1CKTEFUf0tklEdiUNcnKON4BLYSVrv+ARvAJjr0cUWjriUJN8wMSvvNHmfA9uN47Vgo+KpGdiLyGfZeRU=',
+  'iv' => 'PDFencNWX4vyRemnU11PLQ==',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Decode->decodeUser[ C:\wamp64\www\fraternity\application\api\controller\v1\Decode.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `update_time`=1556014884  WHERE  `id` = 18 [ RunTime:0.008001s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:21:25+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.473047s][吞吐率：2.11req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:21:25+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/decode/user
+[ log ] localhost/fraternity/public/index.php/api/v1/decode/user [运行时间：0.380038s][吞吐率：2.63req/s] [内存消耗：2,873.74kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Decode',
+    2 => 'decodeUser',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '544',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:14522',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'encryptedData' => 'NCJQnHoti2a7YOcn1+BHkRcsq9tzfyJuZxHYYJshpldoVfkakg3Q0Nb+0oM81IJ+G4mPMNcz2/poCtlUYoTSGoJ0U1h3v9DPKZsfVASX/Y9syHL1rcdXd3x7p+HvJVTxfSnrjd0TGGhGLAYlP0JZeMIpB2Vc9IRnUQARGOjT82fao+EGYvkK/ihW8kKzRjZmYzAD08mSr1g2MULygH8b8Kb3AcA3N66tTlBSF4XTMkXH0CpLMfepMvQki7YuQ65J5YuuKMtJnatXu2j3vDUqTCmGESBT6ML87FGKyJ7QdZ5NKD1rnzRVv+P+IepZmg60Zw2HnGR5bFdXMenORyflNOS2/O6QigMCRJlSS17JQA9AJZQZC5QbzMI/nRIg9aEVwNm2gcn3WbHYiea6U1D8JBDPfAyeax2mfw18/PSeyhL6tYrp6cT+ZXSp0X3IxwxhpwjJu1C7YWWwBiXDt2ukz+qnZaWKJggtFyBnP9G8MEQ=',
+  'iv' => '8devzB8Demc9SrjxR9rLMA==',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Decode->decodeUser[ C:\wamp64\www\fraternity\application\api\controller\v1\Decode.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:42:48+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.557000s][吞吐率：1.80req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:47:20+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.675000s][吞吐率：1.48req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:47:45+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.409000s][吞吐率：2.44req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:48:30+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.528000s][吞吐率：1.89req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:50:37+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.458000s][吞吐率：2.18req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T18:54:35+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.511000s][吞吐率：1.96req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:10:15+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.431000s][吞吐率：2.32req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:11:52+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.488000s][吞吐率：2.05req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:17:14+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.551000s][吞吐率：1.81req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:18:27+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.479000s][吞吐率：2.09req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:20:07+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.667000s][吞吐率：1.50req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:24:26+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.551000s][吞吐率：1.81req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:24:48+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.499000s][吞吐率：2.00req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:25:18+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.555000s][吞吐率：1.80req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:26:04+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.512000s][吞吐率：1.95req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:28:00+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.505000s][吞吐率：1.98req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:29:54+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.494000s][吞吐率：2.02req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:30:16+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.405000s][吞吐率：2.47req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:37:53+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.475000s][吞吐率：2.11req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:37:59+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.504000s][吞吐率：1.98req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:44:56+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.415000s][吞吐率：2.41req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T19:59:30+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.471000s][吞吐率：2.12req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:00:07+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.608000s][吞吐率：1.64req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:00:48+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.603000s][吞吐率：1.66req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:02:04+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.411000s][吞吐率：2.43req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:22:44+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.624000s][吞吐率：1.60req/s] [内存消耗：1,583.79kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => '6f0b5352d026e43579925215f40ec4c1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [401][C:\wamp64\www\fraternity\application\api\service\Token.php:25]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:22:47+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：1.368000s][吞吐率：0.73req/s] [内存消耗：3,136.90kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:14522',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021vPKvl1Vya4o0JmLtl1qoovl1vPKve',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:22:51+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.924000s][吞吐率：1.08req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => 'df934d2f1c67f8bae0fcc9084ee68da1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:22:52+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/decode/user
+[ log ] localhost/fraternity/public/index.php/api/v1/decode/user [运行时间：0.585000s][吞吐率：1.71req/s] [内存消耗：2,832.58kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Decode',
+    2 => 'decodeUser',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '544',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:14522',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => 'df934d2f1c67f8bae0fcc9084ee68da1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'encryptedData' => 'VZ3e2MNrGiFkK5LhX0xhm1MDV1jyQT4HNIII+1jKJijMPjMpLPSGzr5sXoYgAv6KRLSkye987AKhb1v8PKtBMyndxMaiIb1aJwsnuHbC7rVZTI6qTPvAWvkwrBYShPD4Sqxt6WR3EPaBJ1jvdSAp/URLwO+WUyQOb/8ybxknhxLEhtGcs+ttUpPfxNqnbFjhhmCGkOsUBtHHfK8OVVD/v07iWGZUfBrdNzE6HMW8UifqLK1GDe9W1E8+eqX1faI5+hs/LqhdIxWA9zuL0csnrNZ36gPZpgBgRxgtRyshQbVHBnE9rhEAJJd4TvVzAKBl9kpaQRVYZvczScnbbDRQW1Vw3zlCndp46nrWeA9V4NmStnCBLcIXeWl4AQ39p6TgMm5GUa8kxXm9c1qCOkBZCfT86nzyx1HNUy1HqOR+8zhNKgI4OsL/YiBGqD+vShXxF8fUFyYKdw8zQSNfIfPrGhL0g7tDCsJZiGrq+eZ2TZ0=',
+  'iv' => 'wCBs+wpojqkDq7YI3IE4xg==',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Decode->decodeUser[ C:\wamp64\www\fraternity\application\api\controller\v1\Decode.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `update_time`=1556022171  WHERE  `id` = 18 [ RunTime:0.009000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:24:01+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.396000s][吞吐率：2.53req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => 'df934d2f1c67f8bae0fcc9084ee68da1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:30:01+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.506000s][吞吐率：1.98req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => 'df934d2f1c67f8bae0fcc9084ee68da1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:35:42+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.396000s][吞吐率：2.53req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => 'df934d2f1c67f8bae0fcc9084ee68da1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:45:56+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.399000s][吞吐率：2.51req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => 'df934d2f1c67f8bae0fcc9084ee68da1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-23T20:49:25+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/fraternity/getFraternityInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/fraternity/getFraternityInfo [运行时间：0.511000s][吞吐率：1.96req/s] [内存消耗：2,908.52kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Fraternity',
+    2 => 'getFraternityInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/10fbde5ff8f42a3eb2d9ded569629992',
+  'token' => 'df934d2f1c67f8bae0fcc9084ee68da1',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Fraternity->getFraternityInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Fraternity.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `table` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `table` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------

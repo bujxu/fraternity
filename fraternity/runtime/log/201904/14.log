@@ -1,0 +1,2706 @@
+[ 2019-04-14T13:39:43+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.586293s][吞吐率：1.71req/s] [内存消耗：1,589.20kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '9a988d35cfda2e5050d5345a4ceb5a58',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [401][C:\wamp64\www\fraternity\application\api\service\Token.php:25]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:41:10+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.622311s][吞吐率：1.61req/s] [内存消耗：1,589.02kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [401][C:\wamp64\www\fraternity\application\api\service\Token.php:25]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:41:11+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：1.328664s][吞吐率：0.75req/s] [内存消耗：3,132.63kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071AzOux1koJP90PIevx1N5zux1AzOuq',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030015s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004002s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.003001s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:41:13+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：1.072536s][吞吐率：0.93req/s] [内存消耗：3,132.63kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '061ONYOn1aB8hq0bn3Pn1xyePn1ONYOy',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011006s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005002s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:41:13+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/decode/user
+[ log ] localhost/fraternity/public/index.php/api/v1/decode/user [运行时间：0.588294s][吞吐率：1.70req/s] [内存消耗：2,828.31kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Decode',
+    2 => 'decodeUser',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '544',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '48e17c93241fb234590cba7bf8d63d69',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'encryptedData' => 'JTZS2f/cCfTm92ileKe/5/WwjoTsPmk9XK7C/R/P7dpe6iVJsOAOOXoyvTTDsmUuRJj72u3Eh4tQPQTe7kGcTdmZTo2LwSFq9PgoDgw9Ash924IXAOIzA30NPVWdEwORMwthbiQUdL6/bHj7r/S9NiUfsE7Oz4eyxPAO6VYoOItrEIcI485rsWdCuvi448lLe9C2VcWwLXvcxbCiN11dbaT24Hdc1d6zeO3hErfPKkC19xr7CPoK7d3+mxnZODY1rBiYFSnPUGkikoayO7w7ZoQ+T9D1uJeldLpWXAm8iVCBjWX+Ta1grczZ0aV63aK0Jdl7L/2JA6OYfIktMWsGfcUAp3sekJOAIxjsD75YHgKxMFwfUhfeDBgJs0QR6qNXknAur7CiSdtUposoVWrCywIBk8m5ZTrtZhUsgcYM1FD0ndqtlV2nGBRWj2CSMmk4xwk8jnJXEcVb/mlB9DheE7BTjsXgkP5A3sP4pKDjx2M=',
+  'iv' => 'Ds1J2z720O/Qa6SB+eTndg==',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Decode->decodeUser[ C:\wamp64\www\fraternity\application\api\controller\v1\Decode.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004002s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006003s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `update_time`=1555220472  WHERE  `id` = 18 [ RunTime:0.007004s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:41:14+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.621310s][吞吐率：1.61req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => 'afab64ac271c7310013f36a0820998a5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.005002s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.004002s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:41:14+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/decode/user
+[ log ] localhost/fraternity/public/index.php/api/v1/decode/user [运行时间：0.504252s][吞吐率：1.98req/s] [内存消耗：2,828.31kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Decode',
+    2 => 'decodeUser',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '544',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => 'afab64ac271c7310013f36a0820998a5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'encryptedData' => '6oXBe9Gq9Km+gJqZ8FURY5sLgDEhJzF6v9UJfThZf4QUccii74fJ3DOG3Vp1LYDG2eDSDnO7sJHu78TKKidfPKOgMIOcR6a1N6C3H37+Tl0Ne2Aq693lhIkQiWZwdN5K5kLYG1D8q36kNlxn3oqKaDuFgyDKp51IJgnXrgHcdFgWKurHd9qz1sJ8Zf1jQSO4eqi558OkQ65Bgm8vX1PO9rdX8URgZgJXBjXU4iloevvjx7wBbMAH1RTGKB3UuRX/ejgYQa5ih5kApBeNpX1JIsI/yMnFND1p8H6ASymwRPx6cft1OLN4GiX7APiPU2FujklcBQES9/BCybN38WN8crAdZdeUiS4X8Y79h69vfIgtQuLRm+9lcg5iAMwSfeS/uQvrFU2jDtoALEw/NYNCCxKqHzwG6+DZdoDBLe4KLb11iPvAfcAkef0+ipu5zS1P2ZVtgYsc/PHAoYsdaGkB/OM1j7DOS2mguDZQt9Xp9tE=',
+  'iv' => 'nl8uFpGa8S5l4LZkq7k3fA==',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Decode->decodeUser[ C:\wamp64\www\fraternity\application\api\controller\v1\Decode.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005002s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `update_time`=1555220474  WHERE  `id` = 18 [ RunTime:0.008004s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:41:31+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/order/getOrder?status=10&isSeller=0
+[ log ] localhost/fraternity/public/index.php/api/v1/order/getOrder?status=10&isSeller=0 [运行时间：0.797399s][吞吐率：1.25req/s] [内存消耗：3,413.61kb] [文件加载：53]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'getOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => 'afab64ac271c7310013f36a0820998a5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'status' => '10',
+  'isSeller' => '0',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->getOrder[ C:\wamp64\www\fraternity\application\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007004s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `user_id` = 18  AND `status` <> 4 [ RunTime:0.003001s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:41:31+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/order/getOrder?status=10&isSeller=0
+[ log ] localhost/fraternity/public/index.php/api/v1/order/getOrder?status=10&isSeller=0 [运行时间：0.806403s][吞吐率：1.24req/s] [内存消耗：3,413.61kb] [文件加载：53]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Order',
+    2 => 'getOrder',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => 'afab64ac271c7310013f36a0820998a5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'status' => '10',
+  'isSeller' => '0',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Order->getOrder[ C:\wamp64\www\fraternity\application\api\controller\v1\Order.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.013006s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `user_id` = 18  AND `status` <> 4 [ RunTime:0.003002s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:41:43+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getMyShopInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getMyShopInfo [运行时间：0.875437s][吞吐率：1.14req/s] [内存消耗：2,929.43kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getMyShopInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => 'afab64ac271c7310013f36a0820998a5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getMyShopInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.005003s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.003002s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:41:44+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getMyShopInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getMyShopInfo [运行时间：0.854427s][吞吐率：1.17req/s] [内存消耗：2,929.43kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getMyShopInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => 'afab64ac271c7310013f36a0820998a5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getMyShopInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003002s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.006003s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002001s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:43:45+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.534107s][吞吐率：1.87req/s] [内存消耗：1,589.02kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [401][C:\wamp64\www\fraternity\application\api\service\Token.php:25]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:43:45+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：0.803161s][吞吐率：1.25req/s] [内存消耗：3,132.63kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011WT0A422HMIP0IEjy42jz7A42WT0Az',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:43:47+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：1.132226s][吞吐率：0.88req/s] [内存消耗：3,132.63kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '08168q1F0Xa4Uc2KkN4F06Xq1F068q1z',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015003s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.004001s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:43:49+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.902180s][吞吐率：1.11req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '7ec2eb83b83bee52156d205b2064a420',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:43:55+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/decode/user
+[ log ] localhost/fraternity/public/index.php/api/v1/decode/user [运行时间：0.443089s][吞吐率：2.26req/s] [内存消耗：2,828.31kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Decode',
+    2 => 'decodeUser',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '544',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '7ec2eb83b83bee52156d205b2064a420',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'encryptedData' => 'uhXWlZ7A2Hi+goBRH9EPPDShS/DC2RvmZkcyvL/ZoiPTXsyAPzShRkwBh+oOL8qRIb7uBfgbzfJ2X4OKJdz3nk8ZxbtWNhHqDE4ob2ZeC0zoTRMXqBYQpcPkyf/lhfNbcHtMIBBykPCyBsWXdja8VQXLmxS3Y7gQNzzOATVTwjiqs6vNl/K35FInDnKc5+bSjriizUzdGyU1OMRFz3yM3pZfQsqYRrN0jPfBW+z/N5y8b86QfQj/me1EwbDfMC77+EqdDUta1sAuAKT964q68Iwj96hQ1T6tRpOhxfCPbFeqd0Ri/S5n/9mEBffnkPJ6ITq3xdwZkMBVKwcXgvMscV3KXmBXY6ogKop8MAXrs/PWc3KniPRNw12yY9/OdbepU5CXyZlpaKAhkC4Oghhj3l0cgHjlzcVo894qY5inEfKOQlvJt+W94ESGFBBBDNJQrEbS3cCG+o/nJrbxYlePGpQjRa2u2ECKWaI0EWXv4wQ=',
+  'iv' => 'm3lX3eVplluA0ViWcAoLhQ==',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Decode->decodeUser[ C:\wamp64\www\fraternity\application\api\controller\v1\Decode.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `update_time`=1555220635  WHERE  `id` = 18 [ RunTime:0.004001s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:48:03+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.391039s][吞吐率：2.56req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '7ec2eb83b83bee52156d205b2064a420',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:48:09+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.465047s][吞吐率：2.15req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '7ec2eb83b83bee52156d205b2064a420',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:48:55+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：0.853086s][吞吐率：1.17req/s] [内存消耗：3,132.63kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '021PriTc2R7D1F0BVwVc2nvhTc2PriTS',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:48:55+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.529053s][吞吐率：1.89req/s] [内存消耗：1,589.02kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [401][C:\wamp64\www\fraternity\application\api\service\Token.php:25]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:48:57+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：0.752076s][吞吐率：1.33req/s] [内存消耗：3,132.63kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071rY1Kv0NdoVi1cO9Kv03UVJv0rY1K1',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:48:58+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.466046s][吞吐率：2.15req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '435c024e74a8d0a5ab9742351510b773',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:50:05+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.619062s][吞吐率：1.62req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '435c024e74a8d0a5ab9742351510b773',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009001s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.080008s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:50:23+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.631063s][吞吐率：1.58req/s] [内存消耗：1,589.02kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [401][C:\wamp64\www\fraternity\application\api\service\Token.php:25]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:50:24+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：1.097109s][吞吐率：0.91req/s] [内存消耗：3,132.63kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '081pqK3w0Jztib12Om2w0Dl14w0pqK3n',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:50:26+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：1.654166s][吞吐率：0.60req/s] [内存消耗：3,132.63kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '011tU2NP1JSfc21YzsNP1iy0NP1tU2No',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:50:27+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.603061s][吞吐率：1.66req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:51:01+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.450045s][吞吐率：2.22req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T13:59:40+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.419000s][吞吐率：2.39req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T14:00:26+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.518000s][吞吐率：1.93req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T14:00:31+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.364000s][吞吐率：2.75req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T14:02:04+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.413000s][吞吐率：2.42req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T14:02:19+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.467000s][吞吐率：2.14req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T14:02:49+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.424000s][吞吐率：2.36req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T14:32:03+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.511000s][吞吐率：1.96req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:07:08+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.495000s][吞吐率：2.02req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:08:05+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.490000s][吞吐率：2.04req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:08:17+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.422000s][吞吐率：2.37req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:08:29+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.466000s][吞吐率：2.15req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:12:47+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.426000s][吞吐率：2.35req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:23:10+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.511000s][吞吐率：1.96req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:25:57+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getMyShopInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getMyShopInfo [运行时间：0.896000s][吞吐率：1.12req/s] [内存消耗：2,929.43kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getMyShopInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getMyShopInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:25:57+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getMyShopInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getMyShopInfo [运行时间：0.896000s][吞吐率：1.12req/s] [内存消耗：2,929.43kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getMyShopInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getMyShopInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:26:04+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/address/getDefaultAddress
+[ log ] localhost/fraternity/public/index.php/api/v1/address/getDefaultAddress [运行时间：1.080000s][吞吐率：0.93req/s] [内存消耗：3,282.45kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Address',
+    2 => 'getDefaultAddress',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Address->getDefaultAddress[ C:\wamp64\www\fraternity\application\api\controller\v1\Address.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 18  AND `status` = 'DEFAULT' LIMIT 1 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:29:51+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.427000s][吞吐率：2.34req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:31:18+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.486000s][吞吐率：2.06req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:31:45+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.505000s][吞吐率：1.98req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:32:08+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.508000s][吞吐率：1.97req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:35:27+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.433000s][吞吐率：2.31req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:35:37+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.455000s][吞吐率：2.20req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:36:12+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.432000s][吞吐率：2.31req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:39:36+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.597000s][吞吐率：1.68req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:41:24+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.518000s][吞吐率：1.93req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:41:51+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.511000s][吞吐率：1.96req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:42:27+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.465000s][吞吐率：2.15req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:47:04+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.495000s][吞吐率：2.02req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:47:50+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.518000s][吞吐率：1.93req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:48:13+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.474000s][吞吐率：2.11req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:48:34+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.421000s][吞吐率：2.38req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:53:58+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.579000s][吞吐率：1.73req/s] [内存消耗：1,589.17kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '3571fa8f30c034f4da473eb57d5dbfe5',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [401][C:\wamp64\www\fraternity\application\api\service\Token.php:25]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:54:00+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/token/user
+[ log ] localhost/fraternity/public/index.php/api/v1/token/user [运行时间：1.242000s][吞吐率：0.81req/s] [内存消耗：3,132.63kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Token',
+    2 => 'getToken',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0213IoB82WLEXJ0XAxC82ZK5B823IoBt',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Token->getToken[ C:\wamp64\www\fraternity\application\api\controller\v1\Token.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.014000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:54:02+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.741000s][吞吐率：1.35req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '2efda76783f5e97cfa86255cc14a7e54',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T15:54:13+08:00 ] ::1 ::1 POST /fraternity/public/index.php/api/v1/decode/user
+[ log ] localhost/fraternity/public/index.php/api/v1/decode/user [运行时间：0.639000s][吞吐率：1.56req/s] [内存消耗：2,828.31kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Decode',
+    2 => 'decodeUser',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '544',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:10371',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '2efda76783f5e97cfa86255cc14a7e54',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'encryptedData' => 'yxStCcFHuMduicf+5pN5iANqhgK5Gnb1KgWl4FTGBEw+JLj3s89c/1TuqTkZVmZXJyLlCYB5mGay74xelVyeaA6HCe1EGLeVTpMY/yTe1bRCe70sRddHKaoDWQx/G7pEX67Sq8jP5gqSTyDn1hGISdzD2rG1XU15dmgn+5yIxTMRVLvGuXEDroBKmhfW0pD4ePwKaWOtsvKo9eLJi0R3qFfRS+5DnrQ/jQRrGfX6c0BbRfM5UljsCrjzjKzFql2VywcGByK3UxCuvvx6SUn5uZH8p68QWEgC+P9GohpWJO2eSkppoeIYu8rxJwilcgxGcOaQsuijooxib6to4xojh/m4Icz4lsktYnetLpsCXlOSKKVXSQD8ri3lbL6NbtAMuF3JF7dbryCxeGOL/pM0vBlkKSBBOlmiHoR44P53FSGUnk8AVXW17qoIQYNMf2lAMENcOpKYNrlrSxK/X8furfhGgm6CWcKSuZVywRoMVb0=',
+  'iv' => 'UmL1GFUKt9GAYOeWL1t8PQ==',
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Decode->decodeUser[ C:\wamp64\www\fraternity\application\api\controller\v1\Decode.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oJWIf5XIitRaRCsPoC7kSVh2vs_Y' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `update_time`=1555228452  WHERE  `id` = 18 [ RunTime:0.047000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T16:03:39+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.527000s][吞吐率：1.90req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '2efda76783f5e97cfa86255cc14a7e54',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T16:05:37+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.575000s][吞吐率：1.74req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '2efda76783f5e97cfa86255cc14a7e54',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T16:06:26+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.709000s][吞吐率：1.41req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '2efda76783f5e97cfa86255cc14a7e54',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T16:10:13+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.549000s][吞吐率：1.82req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '2efda76783f5e97cfa86255cc14a7e54',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T16:11:17+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.535000s][吞吐率：1.87req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '2efda76783f5e97cfa86255cc14a7e54',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2019-04-14T16:16:48+08:00 ] ::1 ::1 GET /fraternity/public/index.php/api/v1/shop/getShopListInfo
+[ log ] localhost/fraternity/public/index.php/api/v1/shop/getShopListInfo [运行时间：0.438000s][吞吐率：2.28req/s] [内存消耗：3,009.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\fraternity\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Shop',
+    2 => 'getShopListInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/fdc369a9d84c958cf57e4a313f5f450e',
+  'token' => '2efda76783f5e97cfa86255cc14a7e54',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30eec9e3cc380569/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, br',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Shop->getShopListInfo[ C:\wamp64\www\fraternity\application\api\controller\v1\Shop.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=fraternity;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `user_id` = 18 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_shop` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_shop` WHERE  `user_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `shop` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
