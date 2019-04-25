@@ -17,9 +17,9 @@ return [
     // 数据库名
     'database'        => 'fraternity',
     // 用户名
-    'username'        => 'root',
+    'username'        => 'admin',
     // 密码
-    'password'        => '',
+    'password'        => '123456',
     // 端口
     'hostport'        => '',
     // 连接dsn
