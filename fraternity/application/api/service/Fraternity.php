@@ -12,7 +12,14 @@ class Fraternity
         Db::startTrans();
         try
         {
-            $table = new TableModel();
+            if ($content['id'] != null)
+            {
+                $table = TableModel::where(['id' => $content['id']])->find();
+            }
+            else 
+            {
+                $table = new TableModel();
+            }
             $table->user_id = $userId;
             $table->number = $content['number'];
             $table->amountOfMoney = $content['amountOfMoney'];
