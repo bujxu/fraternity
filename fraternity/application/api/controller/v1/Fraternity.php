@@ -3,6 +3,7 @@ namespace app\api\controller\v1;
 
 use think\Controller;
 use app\api\model\Table as TableModel;
+use app\api\model\UserTable as UserTableModel;
 use \app\api\service\Token as TokenService;
 use \app\api\service\Fraternity as FraternityService;
 class Fraternity 
@@ -28,9 +29,10 @@ class Fraternity
     public function getFraternityInfo()
     {
         $uid = TokenService::getCurrentUid();
-        $result = TableModel::all(['user_id' => $uid])->toArray();
-        
-        return $result;
+        $tableInfo =  TableModel::all(['user_id' => $uid])->toArray();
+        //$userTableInfo = UserTableModel::all(['user_id' => $uid])->toArray();
+        $userTableInfo = FraternityService::getUserTableInfoByUsrId($uid);
+        return ['tableInfo' => $tableInfo, 'userTableInfo' => $userTableInfo];
     }
     
     public function getTableInfo()

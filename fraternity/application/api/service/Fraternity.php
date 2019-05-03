@@ -80,6 +80,12 @@ class Fraternity
             throw $ex;
         }
     }
+
+    public static function getUserTableInfoByUsrId($userId)
+    {
+        return UserTableModel::getTableInfo($userId);
+    }
+
     public static function getTableInfo($userId)
     {
         $tableInfo = TableModel::getTableInfo($userId);

@@ -4,6 +4,22 @@ namespace app\api\model;
 
 class UserTable extends BaseModel
 {
+    public function tableInfo()
+    {
+        return $this->hasOne('table', 'user_id', 'user_id');
+    }
+
+    public static function getTableInfo($uid)
+    {
+        $table = self::where(['user_id' => $uid])->with(['tableInfo'])->select()->toArray();
+
+        if ($table)
+        {
+            $table = array_column($table, 'table_info');
+        }
+        return $table;
+    }
+
     public static function getUserIdByGroupId($GroupId)
     {
         $user = self::where(['group_id' => $GroupId])->find();
@@ -32,11 +48,6 @@ class UserTable extends BaseModel
         return $this->belongsTo('User', 'user_id', 'id');
     }
 
-    
-    public function UserId()
-    {
-        return $this->hasOne('UserGroup', 'id', 'user_id');
-    }
 
     public static function getGroupUsers($groupId)
     {
