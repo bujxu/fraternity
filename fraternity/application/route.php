@@ -106,3 +106,7 @@ Route::post('api/:version/order/userUploadModify', 'api/:version.Order/userUploa
 Route::post('api/:version/fraternity/createTable', 'api/:version.Fraternity/createTable');
 Route::get('api/:version/fraternity/getFraternityInfo', 'api/:version.Fraternity/getFraternityInfo');
 Route::get('api/:version/fraternity/getTableInfo', 'api/:version.Fraternity/getTableInfo');
+
+
+//picture
+Route::get('api/:version/picture/getPicture', 'api/:version.Picture/getPicture');
